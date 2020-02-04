@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:property-placeholder location="Garden.properties"/>
+    <bean id="undergroundBean"
+          init-method="Inithere"
+          destroy-method="Deletehere"
+          factory-method="createUndergroundVegetable"
+          class="com.mineorg.UndergroundVegetable">
+        <constructor-arg value="${Underground.name}"/>
+    </bean>
+    <bean id="groundBean"
+          init-method="Inithere"
+          destroy-method="Deletehere"
+          factory-method="createGroundVegetable"
+          class="com.mineorg.GroundVegetable">
+        <constructor-arg value="${Ground.name}"/>
+    </bean>
+    <bean id="gardenBean"
+          class="com.mineorg.Garden"
+          scope = "prototype">
+<!--        <constructor-arg ref="undergroundBean"/>-->
+        <property name="vegetable">
+         <list>
+            <ref bean ="undergroundBean"/>
+            <ref bean ="groundBean"/>
+         </list>
+        </property>
+        <property name="count" value="${Garden.count}"/>
+    </bean>
+
+</beans>
