@@ -9,9 +9,14 @@ public class TestSpring {
 //        Vegetable secondvegetable = context.getBean("groundBean", Vegetable.class);
 //        new Garden(context.getBean("undergroundBean", Vegetable.class)).plant();
 //        new Garden(context.getBean("groundBean", Vegetable.class)).plant();
-        context.getBean("gardenBean", Garden.class).plant();
-        System.out.println(context.getBean("gardenBean", Garden.class).hashCode());
-        System.out.println(context.getBean("gardenBean", Garden.class).hashCode());
+
+       // Vegetable under = context.getBean("undergroundVegetable", Vegetable.class);
+        context.getBean("garden",Garden.class).setVegetable().plant();
+        //Garden garden = new Garden();
+       // garden.setVegetable(under);
+       // garden.plant();
+//        System.out.println(context.getBean("gardenBean", Garden.class).hashCode());
+//        System.out.println(context.getBean("gardenBean", Garden.class).hashCode());
 
         context.close();
     }

@@ -60,7 +60,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -83,7 +83,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Kisi_sisi\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -93,12 +93,35 @@
       <option name="presentableId" value="Default" />
       <updated>1580734634071</updated>
       <workItem from="1580734638348" duration="4179000" />
-      <workItem from="1580809119194" duration="14286000" />
+      <workItem from="1580809119194" duration="15357000" />
+      <workItem from="1580941661127" duration="46000" />
+      <workItem from="1580993791219" duration="7294000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580737223963">
@@ -113,22 +136,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1580809819914" />
-    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1580842247442">
+    <state x="442" y="112" key="FileChooserDialogImpl" timestamp="1581003500147">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580842247442" />
-    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1580842247441">
+    <state x="442" y="112" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581003500147" />
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1581008080161">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580842247441" />
-    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1580842247441">
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581008080161" />
+    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1581008080160">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580842247441" />
-    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1580842247441">
+    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581008080160" />
+    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1581008080160">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580842247441" />
+    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581008080160" />
+    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1581008080161">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581008080161" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1580742123220">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -145,14 +172,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1580742123220" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1580840409338">
+    <state x="175" y="25" key="SettingsEditor" timestamp="1581008427797">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580840409338" />
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1580734647445">
+    <state x="175" y="25" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581008427797" />
+    <state x="275" y="103" key="Vcs.Push.Dialog.v2" timestamp="1581008159777">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580734647445" />
+    <state x="275" y="103" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1581008159777" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1580993871238">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580993871238" />
     <state x="65" y="72" key="new project wizard" timestamp="1580742109275">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
