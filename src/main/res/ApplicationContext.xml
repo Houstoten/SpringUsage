@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
     <context:component-scan base-package="com.mineorg"/>
-<!--    <context:property-placeholder location="Garden.properties"/>-->
+    <context:property-placeholder location="Garden.properties"/>
 <!--    <bean id="undergroundBean"-->
 <!--          init-method="Inithere"-->
 <!--          destroy-method="Deletehere"-->
